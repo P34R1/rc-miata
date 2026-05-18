@@ -27,6 +27,7 @@ esp-backtrace = { version = "0.17.0", features = [
   "println",
 ] }
 esp-println = { version = "0.15.0", features = ["esp32", "log-04"] }
+blocking-network-stack = { git = "https://github.com/bjoernQ/blocking-network-stack.git", rev = "b3ecefc222d8806edd221f266999ca339c52d34e" }
 esp-wifi = { version = "0.15.0", features = [
   "builtin-scheduler",
   "esp-alloc",
