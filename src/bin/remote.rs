@@ -18,7 +18,8 @@ use esp_hal::{
     timer::timg::TimerGroup,
 };
 
-use log::info;
+use esp_println::println;
+use log::warn;
 
 extern crate alloc;
 
@@ -30,7 +31,7 @@ esp_bootloader_esp_idf::esp_app_desc!();
 fn main() -> ! {
     // generator version: 0.5.0
 
-    esp_println::logger::init_logger(log::LevelFilter::Debug);
+    esp_println::logger::init_logger(log::LevelFilter::Info);
 
     let config = esp_hal::Config::default().with_cpu_clock(CpuClock::max());
     let peripherals = esp_hal::init(config);
@@ -69,17 +70,17 @@ fn main() -> ! {
             let mut buffer = [0u8; 1024];
             let mut pos = 0;
             while let Ok(len) = socket.read(&mut buffer[pos..]) {
-                // let to_print = unsafe { core::str::from_utf8_unchecked(&buffer[..(pos + len)]) };
-                //
-                // if to_print.contains("\r\n\r\n") {
-                //     info!("{to_print}");
-                //     break;
-                // }
+                let to_print = unsafe { core::str::from_utf8_unchecked(&buffer[..(pos + len)]) };
+
+                if to_print.contains("\r\n\r\n") {
+                    println!("{to_print}");
+                    break;
+                }
 
                 pos += len;
 
                 if Instant::now() > deadline {
-                    info!("Timeout");
+                    warn!("Timeout");
                     time_out = true;
                     break;
                 }
@@ -87,15 +88,7 @@ fn main() -> ! {
 
             if !time_out {
                 socket
-                    .write_all(
-                        b"HTTP/1.0 200 OK\r\n\r\n\
-                    <html>\
-                        <body>\
-                            <h1>Hello Rust! Hello esp-wifi!</h1>\
-                        </body>\
-                    </html>\r\n\
-                    ",
-                    )
+                    .write_all(b"HTTP/1.0 200 OK\r\n\r\nHello, World!")
                     .unwrap();
 
                 socket.flush().unwrap();
