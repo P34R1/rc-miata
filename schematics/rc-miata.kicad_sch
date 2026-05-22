@@ -2103,7 +2103,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:60A_BRUSHLESS_ESC")
-		(at 67.31 85.09 0)
+		(at 69.85 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2113,7 +2113,7 @@
 		(dnp no)
 		(uuid "dff61b33-4691-4c3c-b666-b1c5bf0ec3d1")
 		(property "Reference" "U3"
-			(at 68.072 83.566 0)
+			(at 70.612 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2123,7 @@
 			)
 		)
 		(property "Value" "ESC"
-			(at 81.534 84.074 0)
+			(at 84.074 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 85.09 0)
+			(at 69.85 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 85.09 0)
+			(at 69.85 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 			)
 		)
 		(property "Description" "60A, Brushless Electronic Speed Controller, Made for 1/10 RC Car"
-			(at 119.888 104.14 0)
+			(at 122.428 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
