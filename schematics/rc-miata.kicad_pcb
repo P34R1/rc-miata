@@ -152,7 +152,7 @@
 		(property ki_fp_filters "TO?220*")
 		(path "/a76a8b2c-4ef0-4c88-8aa9-561a2ca0c1dd")
 		(sheetname "/")
-		(sheetfile "RC_MIATA.kicad_sch")
+		(sheetfile "rc-miata.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -397,7 +397,7 @@
 		(property ki_fp_filters "*ESP32?C3?DevKitM?1*")
 		(path "/15ab34cc-063e-41f2-82b3-345a2119de0f")
 		(sheetname "/")
-		(sheetfile "RC_MIATA.kicad_sch")
+		(sheetfile "rc-miata.kicad_sch")
 		(units
 			(unit
 				(name "A")
