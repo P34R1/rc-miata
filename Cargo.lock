@@ -1044,6 +1044,23 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "76afc826de14238e6e8c374ddcc1fa19e374fd8dd986b0d2af0d02377261d83c"
 
 [[package]]
+name = "rc-miata"
+version = "0.1.0"
+dependencies = [
+ "blocking-network-stack",
+ "critical-section",
+ "embedded-io",
+ "esp-alloc",
+ "esp-backtrace",
+ "esp-bootloader-esp-idf",
+ "esp-hal",
+ "esp-println",
+ "esp-wifi",
+ "log",
+ "smoltcp",
+]
+
+[[package]]
 name = "riscv"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1082,23 +1099,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "rust-embedded"
-version = "0.1.0"
-dependencies = [
- "blocking-network-stack",
- "critical-section",
- "embedded-io",
- "esp-alloc",
- "esp-backtrace",
- "esp-bootloader-esp-idf",
- "esp-hal",
- "esp-println",
- "esp-wifi",
- "log",
- "smoltcp",
 ]
 
 [[package]]

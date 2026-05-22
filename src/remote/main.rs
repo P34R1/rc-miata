@@ -6,7 +6,7 @@
     holding buffers for the duration of a data transfer."
 )]
 
-use rust_embedded::wifi;
+use shared::wifi;
 
 use embedded_io::{Read as _, Write as _};
 use esp_backtrace as _;
@@ -29,9 +29,7 @@ esp_bootloader_esp_idf::esp_app_desc!();
 
 #[main]
 fn main() -> ! {
-    // generator version: 0.5.0
-
-    esp_println::logger::init_logger(log::LevelFilter::Info);
+    esp_println::logger::init_logger_from_env();
 
     let config = esp_hal::Config::default().with_cpu_clock(CpuClock::max());
     let peripherals = esp_hal::init(config);
