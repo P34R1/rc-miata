@@ -23,8 +23,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 3.81 1.8416 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Value" "Battery"
-				(at 2.54 0 0)
+				(at 3.81 -0.6984 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -241,7 +241,7 @@
 				)
 			)
 			(symbol "Battery_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -259,7 +259,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "-"
@@ -1456,10 +1456,516 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 38.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f5be03-7c1b-438b-9c19-6fa87631c0a0")
+	)
+	(junction
+		(at 38.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f62690bb-3faf-430e-8859-a5c07a295f3e")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20758440-9dfc-4159-9d24-cbb1a8908dfb")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2136346c-257d-4e23-adff-68f186c41199")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b866bbf-d1eb-4497-a8e6-6b7d63ac4c47")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384c712b-c902-45ed-9d6f-740644cb7ac0")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 63.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfdde6a-70af-4380-bf9f-35e98f1f187b")
+	)
+	(wire
+		(pts
+			(xy 63.5 92.71) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d09eab9-31ac-4ed0-a384-bb7eb7a1a3f8")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cc221a-a59a-427a-8608-4f0946f47626")
+	)
+	(wire
+		(pts
+			(xy 109.22 104.14) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db95541-5194-4057-9d0a-75bade3107b2")
+	)
+	(wire
+		(pts
+			(xy 92.71 123.19) (xy 92.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cad725-8a04-47b3-a678-610657230c39")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dadd4e5-3cc6-451d-8aec-98a56829b1a4")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737bb3e2-4a5f-419b-970d-042b2265aa5b")
+	)
+	(wire
+		(pts
+			(xy 60.96 124.46) (xy 60.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7384f538-ee0d-49e3-ad29-cf24ebb93e16")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796caf83-fcad-4fbc-a193-77eae5337222")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d3617d-d9f9-4735-9f6b-22692d3d0db2")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f067a5d-5c74-4de7-80b9-0500bf2c22c1")
+	)
+	(wire
+		(pts
+			(xy 87.63 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2be7734-b24e-4c7f-ae92-1ba3e5754748")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae055418-2ae8-442e-b509-c61fd7d97fac")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae51f34d-e9eb-4c8f-ad11-1ed0c47824a9")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3) (xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f24ec1-5238-4157-aa0a-014eb7ca405c")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f61d63-58a5-4f1f-b609-6cec0defcc37")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4e71ce-b2a5-4279-8d9a-24851c2f7c8b")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea2194-4241-4081-9319-094fae4a9515")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea643c30-18b2-410c-ba70-fa05bbb8eab4")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 109.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8dabe9-a2dd-45cc-8579-eaa37ee5591c")
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-C3-DevKitM-1")
-		(at 165.1 95.25 0)
+		(at 170.18 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1469,7 +1975,7 @@
 		(dnp no)
 		(uuid "15ab34cc-063e-41f2-82b3-345a2119de0f")
 		(property "Reference" "U1"
-			(at 152.908 78.74 0)
+			(at 157.988 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1480,7 +1986,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-DevKitM-1"
-			(at 166.878 78.74 0)
+			(at 171.958 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1491,7 +1997,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
-			(at 165.1 120.65 0)
+			(at 170.18 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
-			(at 165.1 125.73 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1513,7 +2019,7 @@
 			)
 		)
 		(property "Description" "Development board featuring ESP32-C3-MINI-1 module"
-			(at 165.1 123.19 0)
+			(at 170.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,40 +2129,40 @@
 		)
 	)
 	(symbol
-		(lib_id "RC Components:BLDC_MOTOR")
-		(at 120.65 91.44 0)
+		(lib_id "power:+5V")
+		(at 63.5 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "92be0e47-e661-4f9f-ba3b-131cb091657b")
-		(property "Reference" "M1"
-			(at 119.38 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "2cfdec3a-39bb-4ee2-8d31-932bc2536011")
+		(property "Reference" "#PWR02"
+			(at 63.5 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BLDC_MOTOR"
-			(at 127.508 103.124 90)
+		(property "Value" "+5V"
+			(at 63.5 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 91.44 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +2173,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 91.44 0)
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d309d5d6-d5a5-4d8f-b0bd-0f5e352c61cf")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73dd54c9-ed25-4c66-8401-03a320fba8f8")
+		(property "Reference" "#PWR01"
+			(at 63.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b39bee7-bab1-41f6-9498-8223cea2f569")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RC Components:BLDC_MOTOR")
+		(at 119.38 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92be0e47-e661-4f9f-ba3b-131cb091657b")
+		(property "Reference" "M1"
+			(at 118.11 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLDC_MOTOR"
+			(at 126.238 115.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Brushless DC motor, 3100Kv, Made for 1/10 RC Cars"
-			(at 158.75 98.552 0)
+			(at 157.48 111.252 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,18 +2370,18 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 38.1 96.52 0)
+		(at 38.1 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1303f98-9c1f-4d19-afed-0a201f655c47")
 		(property "Reference" "BT1"
-			(at 41.91 94.6784 0)
+			(at 41.91 107.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1730,7 +2392,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 41.91 97.2184 0)
+			(at 41.91 109.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1741,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 94.996 90)
+			(at 38.1 107.696 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 94.996 90)
+			(at 38.1 107.696 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +2425,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 38.1 96.52 0)
+			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +2436,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 38.1 96.52 0)
+			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +2447,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 38.1 96.52 0)
+			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +2458,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 38.1 96.52 0)
+			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +2485,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:UBEC")
-		(at 96.52 90.17 0)
+		(at 58.42 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1833,7 +2495,7 @@
 		(dnp no)
 		(uuid "b8d56870-394a-4f5c-a6d7-26b56257aff3")
 		(property "Reference" "U2"
-			(at 96.012 88.9 0)
+			(at 57.912 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1844,7 +2506,7 @@
 			)
 		)
 		(property "Value" "UBEC"
-			(at 102.616 106.68 0)
+			(at 64.516 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1855,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 90.17 0)
+			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1866,7 +2528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 90.17 0)
+			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,7 +2539,7 @@
 			)
 		)
 		(property "Description" "5.5V-2V IN, 5V OUT, UBEC Voltage Regulator"
-			(at 128.778 101.854 0)
+			(at 90.678 113.284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,7 +2572,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:60A_BRUSHLESS_ESC")
-		(at 69.85 86.36 0)
+		(at 82.55 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1920,7 +2582,7 @@
 		(dnp no)
 		(uuid "dff61b33-4691-4c3c-b666-b1c5bf0ec3d1")
 		(property "Reference" "U3"
-			(at 70.612 84.836 0)
+			(at 83.312 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1930,7 +2592,7 @@
 			)
 		)
 		(property "Value" "ESC"
-			(at 84.074 85.344 0)
+			(at 96.774 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1940,7 +2602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 86.36 0)
+			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +2613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 86.36 0)
+			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +2624,7 @@
 			)
 		)
 		(property "Description" "60A, Brushless Electronic Speed Controller, Made for 1/10 RC Car"
-			(at 122.428 105.41 0)
+			(at 135.128 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,6 +2662,84 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb78ca18-864f-4e19-a557-909dad41d1a2")
+		(property "Reference" "#PWR03"
+			(at 92.71 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ead051b5-4a44-4999-acab-af69284a8f33")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
