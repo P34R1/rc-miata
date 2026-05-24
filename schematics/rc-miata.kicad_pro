@@ -683,7 +683,7 @@
         "uuid": "59cbdaad-7c89-4958-b9bb-08b035442600"
       }
     ],
-    "used_designators": "SW1,M2",
+    "used_designators": "SW1,U4,M2",
     "variants": []
   },
   "sheets": [
