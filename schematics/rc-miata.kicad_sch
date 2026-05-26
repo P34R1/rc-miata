@@ -539,24 +539,6 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 12.7 2.54 270)
 					(length 2.54)
 					(name "3V3"
@@ -1025,6 +1007,26 @@
 					)
 				)
 			)
+			(symbol "ESP32_DEVKITV1_1_0"
+				(pin power_in line
+					(at 10.16 -48.26 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "ESP32_DEVKITV1_1_1"
 				(rectangle
 					(start 0 0)
@@ -1121,42 +1123,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -25.4 90)
-					(length 2.54)
-					(name "BATT_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -25.4 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -2.54 -11.43 0)
 					(length 2.54)
@@ -1242,6 +1208,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1612,24 +1596,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -17.78 90)
-					(length 2.54)
-					(name "BATT_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 5.08 2.54 270)
 					(length 2.54)
@@ -1648,8 +1614,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 5.08 -17.78 90)
+			)
+			(symbol "UBEC_1_0"
+				(pin power_in line
+					(at 3.81 -17.78 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2233,12 +2201,6 @@
 		(uuid "31aeff6d-e4ce-4249-a596-231408a3b89b")
 	)
 	(junction
-		(at 43.18 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3956e53f-3e31-4939-8bb7-9acb252a041a")
-	)
-	(junction
 		(at 43.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2326,16 +2288,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 110.49) (xy 43.18 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b866bbf-d1eb-4497-a8e6-6b7d63ac4c47")
-	)
-	(wire
-		(pts
 			(xy 43.18 68.58) (xy 102.87 68.58)
 		)
 		(stroke
@@ -2343,16 +2295,6 @@
 			(type default)
 		)
 		(uuid "384c712b-c902-45ed-9d6f-740644cb7ac0")
-	)
-	(wire
-		(pts
-			(xy 68.58 105.41) (xy 68.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfdde6a-70af-4380-bf9f-35e98f1f187b")
 	)
 	(wire
 		(pts
@@ -2393,16 +2335,6 @@
 			(type default)
 		)
 		(uuid "5db95541-5194-4057-9d0a-75bade3107b2")
-	)
-	(wire
-		(pts
-			(xy 107.95 109.22) (xy 107.95 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cad725-8a04-47b3-a678-610657230c39")
 	)
 	(wire
 		(pts
@@ -2456,16 +2388,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 110.49) (xy 66.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7384f538-ee0d-49e3-ad29-cf24ebb93e16")
-	)
-	(wire
-		(pts
 			(xy 165.1 76.2) (xy 165.1 73.66)
 		)
 		(stroke
@@ -2486,17 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 110.49) (xy 66.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796caf83-fcad-4fbc-a193-77eae5337222")
-	)
-	(wire
-		(pts
-			(xy 95.25 95.25) (xy 91.44 95.25)
+			(xy 95.25 95.25) (xy 92.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2526,23 +2438,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 102.87 124.46)
+			(xy 105.41 109.22) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f067a5d-5c74-4de7-80b9-0500bf2c22c1")
-	)
-	(wire
-		(pts
-			(xy 102.87 124.46) (xy 43.18 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2be7734-b24e-4c7f-ae92-1ba3e5754748")
 	)
 	(wire
 		(pts
@@ -2556,7 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 107.95) (xy 43.18 110.49)
+			(xy 43.18 107.95) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2613,6 +2515,16 @@
 			(type default)
 		)
 		(uuid "d47fb167-9550-41c3-b946-3e427dfad255")
+	)
+	(wire
+		(pts
+			(xy 67.31 105.41) (xy 67.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58c750e-96c4-491b-858b-aa1f14589c64")
 	)
 	(wire
 		(pts
@@ -2724,16 +2636,6 @@
 		)
 		(uuid "c11b391e-3577-4ad1-b330-0d44d3950f85")
 	)
-	(label "Battery -"
-		(at 43.18 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5700e08-cb47-40bf-9724-fbc66e6cab75")
-	)
 	(global_label "ESC Signal"
 		(shape bidirectional)
 		(at 200.66 80.01 0)
@@ -2760,7 +2662,7 @@
 	)
 	(global_label "ESC Signal"
 		(shape bidirectional)
-		(at 91.44 95.25 180)
+		(at 92.71 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,7 +2672,7 @@
 		)
 		(uuid "65552d2f-b89f-4b3f-899d-6d2edcbc1ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.8209 95.25 0)
+			(at 78.0909 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3153,7 +3055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 114.3 0)
+		(at 67.31 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3164,7 +3066,7 @@
 		(fields_autoplaced yes)
 		(uuid "73dd54c9-ed25-4c66-8401-03a320fba8f8")
 		(property "Reference" "#PWR01"
-			(at 68.58 120.65 0)
+			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 119.38 0)
+			(at 67.31 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3185,7 +3087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 114.3 0)
+			(at 67.31 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 114.3 0)
+			(at 67.31 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 114.3 0)
+			(at 67.31 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,6 +3126,84 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ef709a-f0c7-4579-baaa-9b7d55c17630")
+		(property "Reference" "#PWR010"
+			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fe4825c-fe2e-4d29-b378-1246659550e1")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3611,7 +3591,7 @@
 			)
 		)
 		(property "Value" "UBEC"
-			(at 69.596 104.14 0)
+			(at 67.564 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,9 +3636,6 @@
 		)
 		(pin "1"
 			(uuid "7b815f2c-d08a-49df-b2fb-49a72b5dd9a7")
-		)
-		(pin "2"
-			(uuid "b6cf79cc-863a-4ceb-9e73-62624cded08b")
 		)
 		(pin "4"
 			(uuid "cf87e4ec-e3ee-49f7-9348-02ae4ad0c27a")
@@ -4168,7 +4145,7 @@
 			)
 		)
 		(property "Value" "ESC"
-			(at 112.014 82.804 0)
+			(at 110.236 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4213,9 +4190,6 @@
 		(pin "4"
 			(uuid "2db573e3-6412-40b7-a720-ad0fa354f66f")
 		)
-		(pin "2"
-			(uuid "c6249e4b-2a41-4851-9cd9-ced771d07abd")
-		)
 		(pin "6"
 			(uuid "f77555df-f582-4cfe-9154-f27a98ce6980")
 		)
@@ -4245,7 +4219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 120.65 0)
+		(at 105.41 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4256,7 +4230,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb78ca18-864f-4e19-a557-909dad41d1a2")
 		(property "Reference" "#PWR03"
-			(at 107.95 127 0)
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 125.73 0)
+			(at 105.41 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,7 +4251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 120.65 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +4262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 120.65 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 120.65 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
