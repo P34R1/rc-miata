@@ -679,7 +679,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://Default.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,

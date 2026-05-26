@@ -5679,4 +5679,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Default.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCwCi0WAGafYiDwWDfQsSyzrNcG0i5YhVT1E0VcrDYvr+GZmgWewXn7VFkAUwBcAJz4nucQ
+				/+NuxA/63Dxpi/eTubDzHgcNlsrZoP+uycULGqyk7ak7+pN/AQAICEbS+2jKSa2OdT/vgKPVGT+X
+				XfSPYUEpveqsLeI7yl4qAAKCkcjU+TjvigoBNENV27PrukmvAuBF7KFta4/waFGr/+TfvZ2XrT0t
+				6pQ98T7no+fsYsbegz17WiIPg107+PfbQd+fSMKZa6tf9DDEXu3an+iIqyel/Zn7kWW1hwFcmLGn
+				s4+c5aJZMounLuYDcddUKhpRt412KfmlTquQC6sjc2LyamxSSmXDXLRNx5E1toiKYKXtSemcVSoa
+				W6y0TOboaBoMZlMRmuHPOXLOqOwvutcoz/0RKWRrBwGBQUET016IRL3qRbHaV81QtEm1tVZsgUls
+				gRK5McQN2xbjUDLLpNKwckIymSWjaRCMlZZOMoom2R4O3od3Qe5vG66+ZtUkmS0zp6z0u/3uIMxC
+				XoPDavBtVn+Ah6ABRaUYGhIpSJIUOmBExIiVzQHY395MGapNCc2bZ580t30jrHhJQg6SjBEKfoAF
+				DdjaNxjQP+pPgKBKAvgtH9eyPG8svRaODgz8Q5neBgNFZPBekH0EDGYGoY1YzVAoDMv69hfDRBTw
+				zZBqoe3xW/wM7p7bNdYE+ckEiEd5y0YoCE5MIAlH1mNhkMK2uPgUgjw9t70SAlpg3CENGHFSxgRo
+				HDoDFp7MQ5SWkY6Q8z9owRIBFjDBmbfv4XtUwxA9efJBv6I1Dfn2lOuoaji9NfWHAgHNYcobHYre
+				HcEDfuMu12pLAMkxK7fS8S+8Mt2ylk+nOCCkKhKkA5q+tEIMBeBEB6k5G1gWRQ/zVwOHAxxRvdHl
+				mii7SGxJKoMVCeR07thrqNWmpmnaan2w8HwEbeSjg3QMcBU=|
+			)
+			(checksum "2C2DE22E55D5FC8267D289F914BA7292")
+		)
+	)
 )
