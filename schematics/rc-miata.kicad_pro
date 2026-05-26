@@ -260,7 +260,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|368300|1079500|e5d76e71-660c-4616-9a3f-4e2b81f1ffbf|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|596900|901700|7b815f2c-d08a-49df-b2fb-49a72b5dd9a7|00000000-0000-0000-0000-000000000000|/59cbdaad-7c89-4958-b9bb-08b035442600|/59cbdaad-7c89-4958-b9bb-08b035442600|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -691,7 +700,7 @@
         "uuid": "59cbdaad-7c89-4958-b9bb-08b035442600"
       }
     ],
-    "used_designators": "#PWR10",
+    "used_designators": "BT2,D1-4,#PWR10-12",
     "variants": []
   },
   "sheets": [
