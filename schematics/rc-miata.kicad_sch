@@ -661,6 +661,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32s:ESP32_DEVKITV1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2396,10 +2585,10 @@
 		)
 	)
 	(junction
-		(at 227.33 132.08)
+		(at 227.33 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30b48623-01c6-4cf4-b64b-0d2f2a2ab37a")
+		(uuid "168ee8bb-5ab9-40ef-84ea-6e71711006a1")
 	)
 	(junction
 		(at 173.99 59.69)
@@ -2408,10 +2597,10 @@
 		(uuid "31aeff6d-e4ce-4249-a596-231408a3b89b")
 	)
 	(junction
-		(at 227.33 147.32)
+		(at 227.33 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c7478a0-d3dd-471e-bb76-d721b172d1e7")
+		(uuid "3b1a5c7b-766b-4c71-b773-ddb53523fb76")
 	)
 	(junction
 		(at 240.03 132.08)
@@ -2693,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a78014-09ab-4916-8db5-ae174f2766b0")
+	)
+	(wire
+		(pts
 			(xy 240.03 132.08) (xy 240.03 135.89)
 		)
 		(stroke
@@ -2773,6 +2972,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 132.08) (xy 227.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9cf57f-a91b-459a-a796-594bba4cb0e7")
+	)
+	(wire
+		(pts
 			(xy 104.14 90.17) (xy 104.14 81.28)
 		)
 		(stroke
@@ -2803,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 227.33 132.08)
+			(xy 214.63 132.08) (xy 217.17 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3003,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 147.32) (xy 227.33 147.32)
+			(xy 214.63 147.32) (xy 217.17 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3292,7 @@
 	)
 	(global_label "Taillight LEDs"
 		(shape input)
-		(at 224.79 147.32 180)
+		(at 214.63 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3093,7 +3302,7 @@
 		)
 		(uuid "0414cdf7-ec73-4e1d-82a7-b3d4aa131763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6817 147.32 0)
+			(at 198.5217 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3316,7 @@
 	)
 	(global_label "Headlight LEDs"
 		(shape input)
-		(at 224.79 132.08 180)
+		(at 214.63 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3117,7 +3326,7 @@
 		)
 		(uuid "062399a3-e2e2-4827-b3ae-94471a7b6613")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3512 132.08 0)
+			(at 197.1912 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,6 +3828,164 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 220.98 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "592fbf14-e13d-4986-a78f-4a4426748374")
+		(property "Reference" "R1"
+			(at 216.916 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 221.488 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.726 133.096 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 220.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e088a6c-19d6-408c-83c8-4cc00efa8c22")
+		)
+		(pin "1"
+			(uuid "1bc68708-9b04-4b28-92c9-4f0ce5caf39c")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 220.98 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "609e0973-ce75-4c8f-bc69-ae584a1bacf5")
+		(property "Reference" "R2"
+			(at 216.916 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 221.488 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.726 148.336 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7bea3ec-360f-47ab-bb26-a74f6bf5d6ac")
+		)
+		(pin "1"
+			(uuid "bde98d74-495e-4e23-8925-1eedfb0fd685")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4968,7 +5335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11.1"
+		(property "Value" "11V1"
 			(at 40.132 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
