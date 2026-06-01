@@ -519,6 +519,654 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connectors:3 Screw Terminal"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -1.524 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Terminal"
+				(at 4.826 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1161181_en.pdf"
+				(at 22.86 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Phoenix Contact screw terminal, single row, 01x03"
+				(at 25.146 -17.018 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. #" "1161181"
+				(at 5.588 -25.654 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr." "Phoenix Contact"
+				(at 8.128 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser #" "651-1161181"
+				(at 7.112 -28.702 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Seller" "https://www.mouser.ca/ProductDetail/Phoenix-Contact/1161181?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhXqhzIwd5MSQGBxEXmvvVG1Q%3D%3D"
+				(at 22.352 -35.306 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3 Screw Terminal_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -0.9398) (xy 1.6002 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -3.4798) (xy 1.6002 -4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -6.0198) (xy 1.6002 -6.858)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -0.762) (xy 1.778 -1.6002)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -3.302) (xy 1.778 -4.1402)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -5.842) (xy 1.778 -6.6802)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.81)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -6.35)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connectors:4 Screw Terminal"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -1.524 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Terminal"
+				(at -1.524 -7.366 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1869237_en.pdf"
+				(at 14.224 -21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Phoenix Contact screw terminal, single row, 01x04"
+				(at 25.146 -17.018 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. #" "1869237"
+				(at 4.318 -26.162 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr." "Phoenix Contact"
+				(at 8.128 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser #" "651-1869237"
+				(at 7.112 -23.876 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4 Screw Terminal_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -0.9398) (xy 1.6002 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -3.4798) (xy 1.6002 -4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -6.0198) (xy 1.6002 -6.858)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7366 -8.5598) (xy 1.6002 -9.398)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -0.762) (xy 1.778 -1.6002)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -3.302) (xy 1.778 -4.1402)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -5.842) (xy 1.778 -6.6802)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9144 -8.382) (xy 1.778 -9.2202)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.81)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -6.35)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -8.89)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -2901,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 142.24) (xy 57.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6bab29-b7ed-4fb4-a1af-70215fb939b2")
+	)
+	(wire
+		(pts
 			(xy 189.23 83.82) (xy 194.31 83.82)
 		)
 		(stroke
@@ -2941,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 167.64) (xy 48.26 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afaeba4-b014-455b-a999-0b5f696972f8")
+	)
+	(wire
+		(pts
 			(xy 129.54 76.2) (xy 129.54 73.66)
 		)
 		(stroke
@@ -2951,6 +3619,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 142.24) (xy 57.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cffdcd-c45e-4ba2-b277-7c49c458e932")
+	)
+	(wire
+		(pts
 			(xy 111.76 60.96) (xy 116.84 60.96)
 		)
 		(stroke
@@ -2958,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "2136346c-257d-4e23-adff-68f186c41199")
+	)
+	(wire
+		(pts
+			(xy 57.15 139.7) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2150f3ec-2ee6-44e1-9fa1-5c3d0e533ff1")
 	)
 	(wire
 		(pts
@@ -3051,6 +3739,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 127) (xy 46.99 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9388c6-8dff-43e1-8c21-b405ff37ed49")
+	)
+	(wire
+		(pts
 			(xy 227.33 143.51) (xy 227.33 147.32)
 		)
 		(stroke
@@ -3141,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 160.02) (xy 44.45 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f4ae5e-ac26-4194-9ce3-6e4bfc906dba")
+	)
+	(wire
+		(pts
 			(xy 240.03 147.32) (xy 240.03 151.13)
 		)
 		(stroke
@@ -3148,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "762e80d9-d2f2-454a-a0b7-5a4bbb540efa")
+	)
+	(wire
+		(pts
+			(xy 44.45 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7752161a-e4bc-4c74-a4a2-4aed24660560")
 	)
 	(wire
 		(pts
@@ -3181,6 +3899,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 144.78) (xy 92.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803c42fd-ffab-4c41-8d14-fc9ad40c48a8")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -3198,6 +3926,26 @@
 			(type default)
 		)
 		(uuid "84d3617d-d9f9-4735-9f6b-22692d3d0db2")
+	)
+	(wire
+		(pts
+			(xy 109.22 137.16) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84de8631-332d-45aa-a8e4-8d10e30c5bf8")
+	)
+	(wire
+		(pts
+			(xy 66.04 162.56) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85569ab9-365d-41d6-a12c-a9efa8e3d31f")
 	)
 	(wire
 		(pts
@@ -3221,6 +3969,36 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 110.49) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea75cdb-4ff6-4405-ac5c-af7431ffbe50")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f948ee1-cf71-4d83-bcf6-bf187e0bc035")
+	)
+	(wire
+		(pts
+			(xy 109.22 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb1d6a3-3cae-4ecb-87ca-976be8c4412c")
+	)
+	(wire
+		(pts
 			(xy 104.14 52.07) (xy 104.14 43.18)
 		)
 		(stroke
@@ -3241,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 167.64) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97bc378d-b5b1-48ad-aba4-f0b6eece33c1")
+	)
+	(wire
+		(pts
 			(xy 101.6 80.01) (xy 101.6 85.09)
 		)
 		(stroke
@@ -3248,6 +4036,16 @@
 			(type default)
 		)
 		(uuid "9f067a5d-5c74-4de7-80b9-0500bf2c22c1")
+	)
+	(wire
+		(pts
+			(xy 100.33 127) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6a8ea2-ff09-4c84-9806-df52d62d5fd5")
 	)
 	(wire
 		(pts
@@ -3288,6 +4086,16 @@
 			(type default)
 		)
 		(uuid "b1993195-f247-4870-80b4-1b326d7354e2")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 91.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ca7bfb-27a8-4c1e-ba68-2d08c195e3e0")
 	)
 	(wire
 		(pts
@@ -3351,6 +4159,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 162.56) (xy 66.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c9ca20-cfb2-4b03-a330-9b8799d5181e")
+	)
+	(wire
+		(pts
 			(xy 227.33 128.27) (xy 227.33 132.08)
 		)
 		(stroke
@@ -3388,6 +4206,16 @@
 			(type default)
 		)
 		(uuid "d68bb029-727c-483c-bb6f-c02c55630a8b")
+	)
+	(wire
+		(pts
+			(xy 48.26 165.1) (xy 44.45 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d2d74b-fd1a-4793-bc7c-4a9e5ea90e07")
 	)
 	(wire
 		(pts
@@ -3441,6 +4269,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 109.22) (xy 44.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4c34f1-fee9-42fc-9fe8-d1f2c07c33f8")
+	)
+	(wire
+		(pts
 			(xy 237.49 143.51) (xy 240.03 143.51)
 		)
 		(stroke
@@ -3479,6 +4317,26 @@
 		)
 		(uuid "fa8dabe9-a2dd-45cc-8579-eaa37ee5591c")
 	)
+	(wire
+		(pts
+			(xy 91.44 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6f35ef-61f0-43a0-ac82-7ca0a3020cda")
+	)
+	(wire
+		(pts
+			(xy 44.45 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2e0063-7448-4ba7-af0a-356aa1230c02")
+	)
 	(label "Battery +"
 		(at 39.37 39.37 0)
 		(effects
@@ -3488,6 +4346,46 @@
 			(justify left bottom)
 		)
 		(uuid "0561a954-44fd-4539-94e4-f70b291502e8")
+	)
+	(label "Battery +"
+		(at 44.45 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2054ba13-7d6a-4695-aa2c-0c8aed82bd3f")
+	)
+	(label "Battery +"
+		(at 49.53 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62457dbd-dc8e-4180-8d34-20d1eca82013")
+	)
+	(label "Switch"
+		(at 49.53 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6992a43c-3d6d-40d6-a5b5-bee253f7ff4d")
+	)
+	(label "Battery +"
+		(at 49.53 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b9b9e4c-8952-4084-9b58-bc4a5b052fdb")
 	)
 	(label "Servo Signal"
 		(at 194.31 81.28 0)
@@ -3508,6 +4406,16 @@
 			(justify left bottom)
 		)
 		(uuid "83a3670f-ce28-4744-a565-342264afe015")
+	)
+	(label "Servo Signal"
+		(at 92.71 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "876574fa-fdfa-431c-91b2-4bb5e4a7957e")
 	)
 	(label "Motor W"
 		(at 113.03 66.04 0)
@@ -3538,6 +4446,16 @@
 			(justify left bottom)
 		)
 		(uuid "c11b391e-3577-4ad1-b330-0d44d3950f85")
+	)
+	(label "Switch"
+		(at 46.99 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d911ca2a-0b8b-4f6b-ab25-482a0f7db876")
 	)
 	(global_label "Taillight LEDs"
 		(shape input)
@@ -3635,6 +4553,30 @@
 			)
 		)
 	)
+	(global_label "ESC Signal"
+		(shape bidirectional)
+		(at 48.26 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bba3f4d-3a7d-4ae3-a95f-a3f2ba992e9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.8791 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Headlight LEDs"
 		(shape output)
 		(at 194.31 83.82 0)
@@ -3680,6 +4622,133 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:3 Screw Terminal")
+		(at 38.1 146.05 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02ee46f7-5daf-4343-914f-a1726e03743a")
+		(property "Reference" "J3"
+			(at 36.322 145.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UBEC"
+			(at 40.894 147.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1161181_en.pdf"
+			(at 60.96 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Phoenix Contact screw terminal, single row, 01x03"
+			(at 63.246 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. #" "1161181"
+			(at 43.688 120.396 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Phoenix Contact"
+			(at 46.228 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "651-1161181"
+			(at 45.212 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Seller" "https://www.mouser.ca/ProductDetail/Phoenix-Contact/1161181?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhXqhzIwd5MSQGBxEXmvvVG1Q%3D%3D"
+			(at 60.452 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "da26c1d1-20ba-4818-94e8-6a808b4dcfb7")
+		)
+		(pin "1"
+			(uuid "57bb8b54-d4f7-483e-83a0-957f2282da30")
+		)
+		(pin "2"
+			(uuid "b03004d7-52b7-4aea-afd8-1bde0351eb56")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "J3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3921,6 +4990,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 57.15 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7081a5-b4d2-4dc1-9195-7328f358e4bb")
+		(property "Reference" "#PWR014"
+			(at 57.15 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 57.15 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 57.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5f20d42-136a-4cf6-adc2-9a2711bcc388")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 72.39 0)
 		(unit 1)
@@ -3993,6 +5140,118 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:2 Screw Terminal")
+		(at 38.1 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "425967f6-dbe3-49d4-9567-c6a7cc85b3aa")
+		(property "Reference" "J2"
+			(at 36.322 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 39.37 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1869211_en.pdf"
+			(at 59.944 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Phoenix Contact screw terminal, single row, 01x02"
+			(at 63.246 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. #" "1869211"
+			(at 42.418 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Phoenix Contact"
+			(at 46.228 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "651-1869211"
+			(at 45.72 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5675e3e3-eff5-46ac-9962-cd65d9471b53")
+		)
+		(pin "2"
+			(uuid "1d9db046-8510-4cff-a2ab-dde6d0fd7d2c")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4083,6 +5342,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44dc7e65-c3f7-4c54-bd9b-95d3ade46956")
+		(property "Reference" "#PWR018"
+			(at 109.22 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "372e82b4-46ce-4454-9d01-e6acb5af0bdd")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 100.33 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508e928a-2b46-4580-825d-11f92b79a9f4")
+		(property "Reference" "#PWR019"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 100.33 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 100.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65f9008f-c51b-4090-9759-2900c25be3f3")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 220.98 132.08 270)
 		(unit 1)
@@ -4156,6 +5571,84 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 66.04 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5932af-1092-492f-abfd-724bc178e95f")
+		(property "Reference" "#PWR017"
+			(at 66.04 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 66.04 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55f574b0-0a92-468d-bbfd-345cd2878263")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4319,6 +5812,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2dd7e0-395f-4121-b5cc-11d63962a673")
+		(property "Reference" "#PWR016"
+			(at 48.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f51c14-adcd-4441-95d5-13e8a321a0ce")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 233.68 135.89 180)
 		(unit 1)
@@ -4404,6 +5975,124 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:4 Screw Terminal")
+		(at 38.1 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ecd53c7-be50-4078-bf9e-0b881c5af158")
+		(property "Reference" "J4"
+			(at 36.322 159.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESC"
+			(at 41.402 156.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1869237_en.pdf"
+			(at 52.324 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Phoenix Contact screw terminal, single row, 01x04"
+			(at 63.246 175.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. #" "1869237"
+			(at 42.418 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Phoenix Contact"
+			(at 46.228 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "651-1869237"
+			(at 45.212 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "444ba3d0-656f-4610-b7fa-c994f38b82df")
+		)
+		(pin "1"
+			(uuid "eb583da7-8c36-40c2-9a65-a76d469f3e3e")
+		)
+		(pin "2"
+			(uuid "262fac62-b237-4e08-b729-6bb69f255f5f")
+		)
+		(pin "3"
+			(uuid "db4b632c-0ee2-469c-a147-519806e05c00")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4678,6 +6367,84 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae39f881-c41d-4d11-8ff9-9e2d9a599ed0")
+		(property "Reference" "#PWR015"
+			(at 57.15 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e203ac2-fc0f-4e70-aca5-1ae3fb9993c0")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5262,6 +7029,84 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbbe3ac5-617e-4b1d-ba1f-3582ff9d0cda")
+		(property "Reference" "#PWR013"
+			(at 46.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e200ec42-7a1c-47e6-b1bf-eafe584be00b")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5873,6 +7718,132 @@
 			(project "rc-miata"
 				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:3 Screw Terminal")
+		(at 85.09 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4b3dd3d-3caa-4825-b51d-95bccd8744b8")
+		(property "Reference" "J5"
+			(at 83.312 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SERVO"
+			(at 87.884 126.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1161181_en.pdf"
+			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Phoenix Contact screw terminal, single row, 01x03"
+			(at 110.236 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. #" "1161181"
+			(at 90.678 153.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Phoenix Contact"
+			(at 93.218 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser #" "651-1161181"
+			(at 92.202 156.972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Seller" "https://www.mouser.ca/ProductDetail/Phoenix-Contact/1161181?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhXqhzIwd5MSQGBxEXmvvVG1Q%3D%3D"
+			(at 107.442 163.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f2d0a5c2-0704-4eb2-a89a-ca65496ca18f")
+		)
+		(pin "1"
+			(uuid "fd0419b0-cd29-44e6-892d-4c16079944c6")
+		)
+		(pin "2"
+			(uuid "5b6841a8-f371-41bd-9a21-8286897bc1ed")
+		)
+		(instances
+			(project "rc-miata"
+				(path "/59cbdaad-7c89-4958-b9bb-08b035442600"
+					(reference "J5")
 					(unit 1)
 				)
 			)

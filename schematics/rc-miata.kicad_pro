@@ -691,7 +691,7 @@
         "uuid": "59cbdaad-7c89-4958-b9bb-08b035442600"
       }
     ],
-    "used_designators": "J1,M3",
+    "used_designators": "J1-5,M3,#PWR13-19",
     "variants": []
   },
   "sheets": [
