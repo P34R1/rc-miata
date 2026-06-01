@@ -3909,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 134.62) (xy 91.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814b0757-b7d5-4cb5-b613-f3e25b4120cc")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -4086,16 +4096,6 @@
 			(type default)
 		)
 		(uuid "b1993195-f247-4870-80b4-1b326d7354e2")
-	)
-	(wire
-		(pts
-			(xy 91.44 134.62) (xy 91.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ca7bfb-27a8-4c1e-ba68-2d08c195e3e0")
 	)
 	(wire
 		(pts
@@ -4627,7 +4627,8 @@
 	)
 	(symbol
 		(lib_id "Connectors:3 Screw Terminal")
-		(at 38.1 138.43 0)
+		(at 38.1 146.05 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4637,7 +4638,7 @@
 		(dnp no)
 		(uuid "02ee46f7-5daf-4343-914f-a1726e03743a")
 		(property "Reference" "J3"
-			(at 36.322 139.192 0)
+			(at 36.322 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4647,7 +4648,7 @@
 			)
 		)
 		(property "Value" "UBEC"
-			(at 40.894 136.652 0)
+			(at 40.894 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4657,7 +4658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 138.43 0)
+			(at 38.1 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4669,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1161181_en.pdf"
-			(at 60.96 170.18 0)
+			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4680,7 @@
 			)
 		)
 		(property "Description" "Phoenix Contact screw terminal, single row, 01x03"
-			(at 63.246 155.448 0)
+			(at 63.246 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4691,7 @@
 			)
 		)
 		(property "Mfr. #" "1161181"
-			(at 43.688 164.084 0)
+			(at 43.688 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,7 +4702,7 @@
 			)
 		)
 		(property "Mfr." "Phoenix Contact"
-			(at 46.228 157.48 0)
+			(at 46.228 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4713,7 @@
 			)
 		)
 		(property "Mouser #" "651-1161181"
-			(at 45.212 167.132 0)
+			(at 45.212 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4724,7 @@
 			)
 		)
 		(property "Seller" "https://www.mouser.ca/ProductDetail/Phoenix-Contact/1161181?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhXqhzIwd5MSQGBxEXmvvVG1Q%3D%3D"
-			(at 60.452 173.736 0)
+			(at 60.452 110.744 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 233.68 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6480,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 233.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7663,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 233.68 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7724,8 +7725,7 @@
 	)
 	(symbol
 		(lib_id "Connectors:3 Screw Terminal")
-		(at 85.09 135.89 0)
-		(mirror x)
+		(at 85.09 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7735,7 +7735,7 @@
 		(dnp no)
 		(uuid "f4b3dd3d-3caa-4825-b51d-95bccd8744b8")
 		(property "Reference" "J5"
-			(at 83.312 135.128 0)
+			(at 83.312 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7745,7 +7745,7 @@
 			)
 		)
 		(property "Value" "SERVO"
-			(at 87.884 137.668 0)
+			(at 87.884 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7755,7 +7755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 135.89 0)
+			(at 85.09 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7766,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/3/507/9/phoenix_contact_1161181_en.pdf"
-			(at 107.95 104.14 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +7777,7 @@
 			)
 		)
 		(property "Description" "Phoenix Contact screw terminal, single row, 01x03"
-			(at 110.236 118.872 0)
+			(at 110.236 145.288 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +7788,7 @@
 			)
 		)
 		(property "Mfr. #" "1161181"
-			(at 90.678 110.236 0)
+			(at 90.678 153.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7799,7 @@
 			)
 		)
 		(property "Mfr." "Phoenix Contact"
-			(at 93.218 116.84 0)
+			(at 93.218 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +7810,7 @@
 			)
 		)
 		(property "Mouser #" "651-1161181"
-			(at 92.202 107.188 0)
+			(at 92.202 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +7821,7 @@
 			)
 		)
 		(property "Seller" "https://www.mouser.ca/ProductDetail/Phoenix-Contact/1161181?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhXqhzIwd5MSQGBxEXmvvVG1Q%3D%3D"
-			(at 107.442 100.584 0)
+			(at 107.442 163.576 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
