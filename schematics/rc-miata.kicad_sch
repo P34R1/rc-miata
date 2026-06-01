@@ -3779,6 +3779,94 @@
 		(color 0 0 0 0)
 		(uuid "e4469a21-b9c3-4fae-90f9-c5b5b2fb0fd6")
 	)
+	(no_connect
+		(at 189.23 96.52)
+		(uuid "128d86f9-b30c-4066-a70e-20ad5100f527")
+	)
+	(no_connect
+		(at 163.83 105.41)
+		(uuid "225dfe27-cd24-461d-8d79-18584bf61d63")
+	)
+	(no_connect
+		(at 163.83 92.71)
+		(uuid "36be5aa7-7a05-4959-b2c3-e9d9152f42db")
+	)
+	(no_connect
+		(at 163.83 97.79)
+		(uuid "4fc4c64b-e956-4f04-9709-e1b0cd4717ee")
+	)
+	(no_connect
+		(at 163.83 85.09)
+		(uuid "54a6a757-1d41-4d2d-88c3-bc178a286436")
+	)
+	(no_connect
+		(at 163.83 74.93)
+		(uuid "5b67f715-d3b5-41ec-bbe5-8fcf381cfcfb")
+	)
+	(no_connect
+		(at 163.83 90.17)
+		(uuid "641dabf6-9a6a-4ff1-9b66-7ef710db1de5")
+	)
+	(no_connect
+		(at 163.83 107.95)
+		(uuid "74827b48-3f73-4dcd-8375-db7a6b701465")
+	)
+	(no_connect
+		(at 163.83 87.63)
+		(uuid "84bf1304-09ed-436a-ae44-8679861f9324")
+	)
+	(no_connect
+		(at 189.23 91.44)
+		(uuid "874e8294-3390-4321-83df-e059e948892e")
+	)
+	(no_connect
+		(at 163.83 77.47)
+		(uuid "94b58ad1-579e-437b-856a-9d8bd5f3618a")
+	)
+	(no_connect
+		(at 179.07 64.77)
+		(uuid "b71be943-9034-4af2-a0ca-2e70f4b67784")
+	)
+	(no_connect
+		(at 163.83 95.25)
+		(uuid "b79d92b5-6954-40ad-9463-ec9de12cbb2b")
+	)
+	(no_connect
+		(at 163.83 82.55)
+		(uuid "bd3aed70-dbfd-45c7-bf28-34da1b991d16")
+	)
+	(no_connect
+		(at 163.83 100.33)
+		(uuid "bff1f6ef-5f93-4c16-be89-758d504dc3ab")
+	)
+	(no_connect
+		(at 189.23 101.6)
+		(uuid "d0d23774-64a4-46fa-98b8-b6f7edb02e4c")
+	)
+	(no_connect
+		(at 163.83 72.39)
+		(uuid "d60b32e7-cef8-438a-afc5-5f15e8181069")
+	)
+	(no_connect
+		(at 189.23 99.06)
+		(uuid "e01cb787-4765-4cce-976f-b850e9836e08")
+	)
+	(no_connect
+		(at 189.23 88.9)
+		(uuid "e285b6c2-918b-43c1-9084-f1c7127db158")
+	)
+	(no_connect
+		(at 163.83 80.01)
+		(uuid "edc378c9-0f05-453c-be0b-8ff737c2e9f6")
+	)
+	(no_connect
+		(at 189.23 93.98)
+		(uuid "ee8287e7-5ae6-40ed-b75f-18d4f601bd5a")
+	)
+	(no_connect
+		(at 163.83 102.87)
+		(uuid "fbc2bf5c-7b92-4a2c-ac11-7605c305472f")
+	)
 	(wire
 		(pts
 			(xy 189.23 86.36) (xy 191.77 86.36)
