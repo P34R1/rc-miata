@@ -2615,7 +2615,7 @@
 		(uuid "82831b03-882e-4829-a86e-8bad2b58d803")
 	)
 	(junction
-		(at 39.37 88.9)
+		(at 39.37 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4469a21-b9c3-4fae-90f9-c5b5b2fb0fd6")
@@ -2702,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 129.54 111.76)
+			(xy 129.54 76.2) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 116.84 99.06)
+			(xy 111.76 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 99.06 77.47)
+			(xy 39.37 39.37) (xy 99.06 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 64.77 93.98)
+			(xy 64.77 49.53) (xy 64.77 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 129.54 114.3)
+			(xy 116.84 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 93.98)
+			(xy 116.84 60.96) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 92.71) (xy 39.37 88.9)
+			(xy 39.37 54.61) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 124.46 104.14)
+			(xy 111.76 66.04) (xy 124.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 39.37 88.9)
+			(xy 39.37 39.37) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 104.14) (xy 88.9 104.14)
+			(xy 91.44 66.04) (xy 88.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 129.54 96.52)
+			(xy 129.54 55.88) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 104.14 81.28)
+			(xy 104.14 52.07) (xy 104.14 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 101.6 123.19)
+			(xy 101.6 80.01) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 106.68) (xy 39.37 102.87)
+			(xy 39.37 68.58) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 116.84) (xy 39.37 123.19)
+			(xy 39.37 78.74) (xy 39.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 116.84 109.22)
+			(xy 111.76 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 88.9) (xy 39.37 88.9)
+			(xy 62.23 50.8) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 129.54 93.98)
+			(xy 116.84 55.88) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 63.5 123.19)
+			(xy 63.5 76.2) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 62.23 88.9)
+			(xy 62.23 55.88) (xy 62.23 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 99.06 90.17)
+			(xy 99.06 39.37) (xy 99.06 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 109.22) (xy 116.84 114.3)
+			(xy 116.84 71.12) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3241,7 @@
 		(uuid "fa8dabe9-a2dd-45cc-8579-eaa37ee5591c")
 	)
 	(label "Battery +"
-		(at 39.37 77.47 0)
+		(at 39.37 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 		(uuid "7d98e6d0-9aee-4901-9cf1-d7ff01e1f6d1")
 	)
 	(label "Motor V"
-		(at 116.84 114.3 0)
+		(at 116.84 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,7 +3271,7 @@
 		(uuid "83a3670f-ce28-4744-a565-342264afe015")
 	)
 	(label "Motor W"
-		(at 113.03 104.14 0)
+		(at 113.03 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,8 +3280,18 @@
 		)
 		(uuid "b497372b-d40e-42ae-b2bb-e22772ce6f88")
 	)
+	(label "Switch"
+		(at 39.37 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4f4d32c-f0a6-48a8-8110-1452d5adac1c")
+	)
 	(label "Motor U"
-		(at 116.84 93.98 0)
+		(at 116.84 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3364,7 +3374,7 @@
 	)
 	(global_label "ESC Signal"
 		(shape bidirectional)
-		(at 88.9 104.14 180)
+		(at 88.9 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3374,7 +3384,7 @@
 		)
 		(uuid "65552d2f-b89f-4b3f-899d-6d2edcbc1ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.2809 104.14 0)
+			(at 74.2809 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 64.77 87.63 0)
+		(at 64.77 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3525,7 +3535,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cfdec3a-39bb-4ee2-8d31-932bc2536011")
 		(property "Reference" "#PWR02"
-			(at 64.77 91.44 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +3546,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.77 82.55 0)
+			(at 64.77 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3546,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 87.63 0)
+			(at 64.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 87.63 0)
+			(at 64.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 64.77 87.63 0)
+			(at 64.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 123.19 0)
+		(at 63.5 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4004,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(uuid "73dd54c9-ed25-4c66-8401-03a320fba8f8")
 		(property "Reference" "#PWR01"
-			(at 63.5 129.54 0)
+			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4025,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 128.27 0)
+			(at 63.5 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4025,7 +4035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 123.19 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 123.19 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,7 +4057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 123.19 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 123.19 0)
+		(at 39.37 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4173,7 +4183,7 @@
 		(fields_autoplaced yes)
 		(uuid "91ef709a-f0c7-4579-baaa-9b7d55c17630")
 		(property "Reference" "#PWR010"
-			(at 39.37 129.54 0)
+			(at 39.37 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,7 +4194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 128.27 0)
+			(at 39.37 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4194,7 +4204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 123.19 0)
+			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 123.19 0)
+			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,7 +4226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 123.19 0)
+			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4250,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:BLDC_MOTOR")
-		(at 127 99.06 0)
+		(at 127 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4250,7 +4260,7 @@
 		(dnp no)
 		(uuid "92be0e47-e661-4f9f-ba3b-131cb091657b")
 		(property "Reference" "M1"
-			(at 125.73 97.79 0)
+			(at 125.73 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4261,7 +4271,7 @@
 			)
 		)
 		(property "Value" "BLDC_MOTOR"
-			(at 133.858 110.744 90)
+			(at 133.858 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4272,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 99.06 0)
+			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 99.06 0)
+			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4304,7 @@
 			)
 		)
 		(property "Description" "Brushless DC motor, 3100Kv, Made for 1/10 RC Cars"
-			(at 165.1 106.172 0)
+			(at 165.1 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,7 +4502,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 39.37 97.79 90)
+		(at 39.37 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4502,7 +4512,7 @@
 		(dnp no)
 		(uuid "b32d9812-c676-4649-bddc-ce26799d5b22")
 		(property "Reference" "SW1"
-			(at 40.64 90.678 0)
+			(at 40.64 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4513,7 +4523,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 40.64 99.0599 90)
+			(at 40.64 60.9599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 97.79 0)
+			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +4546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 97.79 0)
+			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,7 +4557,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 39.37 97.79 0)
+			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +4675,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:UBEC")
-		(at 59.69 96.52 0)
+		(at 59.69 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4675,7 +4685,7 @@
 		(dnp no)
 		(uuid "b8d56870-394a-4f5c-a6d7-26b56257aff3")
 		(property "Reference" "U2"
-			(at 59.182 95.25 0)
+			(at 59.182 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4686,7 +4696,7 @@
 			)
 		)
 		(property "Value" "UBEC"
-			(at 63.754 113.03 0)
+			(at 63.754 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4697,7 +4707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 96.52 0)
+			(at 59.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,7 +4718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 96.52 0)
+			(at 59.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4729,7 @@
 			)
 		)
 		(property "Description" "5.5V-2V IN, 5V OUT, UBEC Voltage Regulator"
-			(at 91.948 108.204 0)
+			(at 91.948 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +4996,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 104.14 81.28 0)
+		(at 104.14 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4997,7 +5007,7 @@
 		(fields_autoplaced yes)
 		(uuid "d69770eb-8563-46b1-bf1e-3a52ffeffae6")
 		(property "Reference" "#PWR04"
-			(at 104.14 85.09 0)
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +5018,7 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 104.14 76.2 0)
+			(at 104.14 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5018,7 +5028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 81.28 0)
+			(at 104.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5029,7 +5039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 81.28 0)
+			(at 104.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,7 +5050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 104.14 81.28 0)
+			(at 104.14 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "RC Components:60A_BRUSHLESS_ESC")
-		(at 93.98 92.71 0)
+		(at 93.98 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5230,7 +5240,7 @@
 		(dnp no)
 		(uuid "dff61b33-4691-4c3c-b666-b1c5bf0ec3d1")
 		(property "Reference" "U3"
-			(at 94.742 91.186 0)
+			(at 94.742 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5240,7 +5250,7 @@
 			)
 		)
 		(property "Value" "ESC"
-			(at 106.426 116.84 0)
+			(at 106.426 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5250,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 92.71 0)
+			(at 93.98 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 92.71 0)
+			(at 93.98 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5282,7 @@
 			)
 		)
 		(property "Description" "60A, Brushless Electronic Speed Controller, Made for 1/10 RC Car"
-			(at 146.558 111.76 0)
+			(at 146.558 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5315,7 +5325,7 @@
 	(symbol
 		(lib_name "Battery_1")
 		(lib_id "Device:Battery")
-		(at 39.37 111.76 0)
+		(at 39.37 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5325,7 +5335,7 @@
 		(dnp no)
 		(uuid "e5d76e71-660c-4616-9a3f-4e2b81f1ffbf")
 		(property "Reference" "BT1"
-			(at 35.56 108.712 0)
+			(at 35.56 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5336,7 +5346,7 @@
 			)
 		)
 		(property "Value" "11V1"
-			(at 40.132 116.078 0)
+			(at 40.132 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5347,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 110.236 90)
+			(at 39.37 72.136 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 110.236 90)
+			(at 39.37 72.136 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5379,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 39.37 111.76 0)
+			(at 39.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5390,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 39.37 111.76 0)
+			(at 39.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5401,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 39.37 111.76 0)
+			(at 39.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5402,7 +5412,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 39.37 111.76 0)
+			(at 39.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 123.19 0)
+		(at 101.6 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5608,7 +5618,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb78ca18-864f-4e19-a557-909dad41d1a2")
 		(property "Reference" "#PWR03"
-			(at 101.6 129.54 0)
+			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 128.27 0)
+			(at 101.6 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5629,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 123.19 0)
+			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 123.19 0)
+			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 123.19 0)
+			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
