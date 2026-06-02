@@ -533,7 +533,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Default.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -691,7 +691,7 @@
         "uuid": "59cbdaad-7c89-4958-b9bb-08b035442600"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR20",
     "variants": []
   },
   "sheets": [
