@@ -81,7 +81,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2978,15 +2977,6 @@
 		(path "/cad51234-2d4d-4961-b3df-800791815898")
 		(sheetname "/")
 		(sheetfile "rc-miata.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "15" "18" "27" "19" "26" "23" "4" "3" "5" "28" "25" "24" "12" "11"
-					"14" "13" "1" "2" "30" "29" "22" "21" "20" "17" "16" "8" "7" "6" "10"
-					"9"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3304,30 +3294,8 @@
 			(uuid "bb10ee2e-6cc6-4577-8acf-f7137e48d015")
 		)
 		(fp_circle
-			(center 25.7 2)
-			(end 27.2 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8dbf7b63-5760-4f7c-a0c8-e25689bd6f20")
-		)
-		(fp_circle
-			(center 2.3 2)
-			(end 3.8 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "0cdcd4a6-94ee-4faf-a3b5-c8ac3a9dd3dd")
-		)
-		(fp_circle
-			(center 25.7 49.5)
-			(end 27.2 49.5)
+			(center 26 2)
+			(end 27.5 2)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3337,8 +3305,19 @@
 			(uuid "1467e13c-7b68-4abd-a601-a977d2ea82fe")
 		)
 		(fp_circle
-			(center 2.3 49.5)
-			(end 3.8 49.5)
+			(center 2 2)
+			(end 3.5 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8dbf7b63-5760-4f7c-a0c8-e25689bd6f20")
+		)
+		(fp_circle
+			(center 26 49.5)
+			(end 27.5 49.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3346,6 +3325,28 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "827d37e2-4814-4ed0-9434-e4881a59a638")
+		)
+		(fp_circle
+			(center 2 49.5)
+			(end 3.5 49.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0cdcd4a6-94ee-4faf-a3b5-c8ac3a9dd3dd")
+		)
+		(fp_rect
+			(start -1 -1)
+			(end 29 53)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "16434eb9-10bf-4d5c-8f95-e94cf99a2d9d")
 		)
 		(fp_text user "USB"
 			(at 14 49.53 90)
@@ -3701,15 +3702,15 @@
 			(uuid "9c0eec46-48dc-41b9-b24b-31bbf3a52246")
 		)
 		(embedded_fonts no)
-		(model "E:/Design Files/Electronic Libraries/ESP32/3D Models/esp32_30pin-v3.step"
+		(model "E:/Design Files/Electronic Libraries/ESP32/3D Models/ESP32 DevkitV1.step"
 			(offset
-				(xyz 2 -49 1.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
